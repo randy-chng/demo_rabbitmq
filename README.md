@@ -13,7 +13,7 @@ This project demonstrates
 #### Step 1
 Run following command
 ```
-docker run -d --hostname my-rabbit --name some-rabbit  --publish 5672:5672 rabbitmq:3
+docker run -d --hostname my-rabbit --name some-rabbit --publish 5672:5672 rabbitmq:3
 ```
 
 ### Application
