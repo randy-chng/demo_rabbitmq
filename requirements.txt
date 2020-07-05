@@ -1,0 +1,7 @@
+pyyaml
+pyspark
+requests
+requests_oauthlib
+pandas
+pika
+jupyterlab
