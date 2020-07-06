@@ -33,7 +33,7 @@ For local docker desktop installation, consider following values for RabbitMQ de
 - [A] = host.docker.internal
 - [B] = 5672
 ```
-cd ~/demo_data_pipeline
+cd ~/demo_rabbitmq
 docker image build --tag mq_pipeline_i --build-arg mq_host=[A] --build-arg mq_port=[B] --build-arg access_token=[W] --build-arg access_secret=[X] --build-arg consumer_key=[Y] --build-arg consumer_secret=[Z] --file Dockerfile .
 ```
 
